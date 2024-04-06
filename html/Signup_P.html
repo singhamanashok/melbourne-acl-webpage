@@ -121,14 +121,26 @@
 </head>
 <body>
     <div class="homeright">
-
-        <div class="login-container">
-            <h1>Login</h1>
-            <div class="login-options">
-              <a href="P-Login.html">Login as Patient</a><br>
-              <a href="Pr-Login.html">Login as Practitioner</a>
+        <body>
+            <div class="signup-container">
+              <h1>Patient Sign Up</h1>
+              <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter a password" required>
+          
+                <button type="submit">Sign Up</button>
+              </form>
+              <div class="signup-options">
+                <p>Already have an account? <a href="Login.html">Sign In</a></p>
+              </div>
             </div>
-          </div>
+          
   </div>
 </body>
 </html>

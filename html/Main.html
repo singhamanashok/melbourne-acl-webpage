@@ -39,11 +39,12 @@
 		<a href="" class="logo">Melbourne <span style="color: #ED4D72;">ACL</span></a>
 		<ul>
 			<li><a href="#home" class="active" onclick="toggle()">Home</a></li>
-			<li><a href="#about" onclick="toggle()">About</a></li>
+			<li><a href="explore.html" class="active1" onclick="toggle()">About</a></li>
 			<li><a href="#services" onclick="toggle()">Services</a></li>
-			<li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
-			<li><a href="#team" onclick="toggle()">Team</a></li>
-			<li><a href="#contact" onclick="toggle()">Contact</a></li>
+			<li><a href="Login.html" class="active1" onclick="toggle()">Login</a></li>
+			
+			<!--<li><a href="#Register" onclick="toggle()">Register</a></li>
+			<li><a href="#contact" onclick="toggle()">Contact</a></li>-->
 		</ul>
 		<div class="toggle" onclick="toggle()"></div>
 	</header>
@@ -62,9 +63,12 @@
 			</div>
 
 			<div class="homeright">
-				<div class="button">
-					<p>Explore <span style="color: #ED4D72;">></span></p>
-				</div>
+				<!--<div class="button">
+					<button onclick="window.location.href='explore.html';"><p>Click here 
+					</p><span style="color: #ed4d85;"></span></button>
+					<p>Explore</p>
+				</div>-->
+				
 			</div>
 		</div>
 
@@ -100,7 +104,7 @@
 						<p>Find us</p>
 					</div>
 					<div class="subinfo">
-						<p>1010 Blue Ridge, Hinjewadi 411057, Pune</p>
+						<p>Latrobe uni</p>
 					</div>
 				</div>
 			</div>
@@ -165,6 +169,12 @@
 		function toggle() {
 			var header = document.getElementById("header")
 			header.classList.toggle('active')
+		}
+	</script>
+	<script type="text/javascript">
+		function toggle() {
+			var header = document.getElementById("header")
+			header.classList.toggle('active1')
 		}
 	</script>
 

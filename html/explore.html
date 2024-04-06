@@ -39,12 +39,12 @@
     <header id="header">
         <a href="" class="logo">Melbourne <span style="color: #ED4D72;">ACL</span></a>
         <ul>
-            <li><a href="#home" class="active" onclick="toggle()">Home</a></li>
-            <li><a href="#about" onclick="toggle()">About</a></li>
+            <li><a href="Main.html" onclick="toggle()">Home</a></li>
+            <li><a href="explore.html" class="active" onclick="toggle()">About</a></li>
             <li><a href="#services" onclick="toggle()">Services</a></li>
-            <li><a href="#portfolio" onclick="toggle()">Portfolio</a></li>
-            <li><a href="#team" onclick="toggle()">Team</a></li>
-            <li><a href="#contact" onclick="toggle()">Contact</a></li>
+            <li><a href="Login.html" onclick="toggle()">Login</a></li>
+           <!-- <li><a href="#Register" onclick="toggle()">Register</a></li>-->
+           <!-- <li><a href="#contact" onclick="toggle()">Contact</a></li>-->
         </ul>
         <div class="toggle" onclick="toggle()"></div>
     </header>
@@ -80,7 +80,7 @@
                     Only the researchers will have access to this information.
 
                 </p><br>
-                <p>If you would like more details, the <a href="" style="color : #5076B4;">Participant Information
+                <p>If you would like more details, the <a href="D:\New folder\IDP HOME PAGE\Project\pdf\PICF-Melbourne-ACL (1).pdf" style="color : #1c1fdf;">Participant Information
                         Sheet</a> tells you about the research
                     project
                     and what is involved.</p><br>
@@ -100,6 +100,13 @@
             header.classList.toggle('active')
         }
     </script>
+
+<script type="text/javascript">
+    function toggle() {
+        var header = document.getElementById("header")
+        header.classList.toggle('active1')
+    }
+</script>
 
 
 
