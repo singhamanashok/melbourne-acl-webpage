@@ -48,7 +48,7 @@ header ul li a {
 }
 
 header ul li a.active {
-    background: #ff2063;
+    background: #ff2067;
 }
 
 header ul li a:hover {
@@ -70,7 +70,7 @@ header ul li a:hover {
 
 
 section .home {
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -78,9 +78,9 @@ section .home {
 }
 
 section .home .homeleft {
-    background-image: url(../images/acl_bands.png), url(../images/homeleft1.jpg);
-    flex: 1;
-    background-position: top 45px center, center;
+    background-image: url(../images/Sports-Injury.png),url(../images/homeleft1.jpg);
+    flex: 4;
+    background-position: top 100px center, center;
     background-size: contain, cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -88,16 +88,16 @@ section .home .homeleft {
 
 section .home .homeleft h1 {
     color: black;
-    text-shadow: 5px 5px 5px lightgrey;
+    text-shadow: 2px 2px 3px lightgrey;
     font-size: 30px;
     text-align: left;
     padding-left: 25%;
-    margin-top: 58vh;
+    margin-top: 65vh;
     font-family: "DIN", lato, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", sans-serif;
 }
 
 section .home .homeleft p {
-    color: black;
+    color: #424242;
     width: 360px;
     font-size: 15px;
 
@@ -107,37 +107,54 @@ section .home .homeleft p {
 }
 
 
-
 section .home .homeright {
-    background-image: url(../images/physio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #DCDCDC;
+    background-color: #F7F7F7;
+    flex: 2.5;
+    padding-top: 8%;
+    padding-left: 6%;
+    padding-right: 5%;
 
+}
+section .home .homeright p {
+    font-family: "DIN", lato, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #424242;
+}
 
-    flex: 2;
-
+section .home .homeright h2 {
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    /*color: #075199;*/
+    color : #5076B4;
+    margin: -3px 0 8px;
+    font-family: "DIN", lato, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", sans-serif;
 }
 
 
 section .home .homeright .button {
-
-    margin-top: 68vh;
-    margin-left: 80%;
+   
     height: fit-content;
     width: fit-content;
     color: D8D8D8;
-    background: #0c50a4;
-    box-shadow: 5px 5px 15px #bebebe,
-        -5px -5px 15px #ffffff;
-    border-radius: 5px;
+    background: #e0e0e0;
+    background-color: #F7F7F7;
+    box-shadow: 1px 1px 3px #bebebe,
+        -1px -1px 3px #ffffff;
+    border-radius: 20px;
     border-color: black;
     border-width: 2px;
     border-style: solid;
     border-color: grey;
-    padding-right: 50px;
-    padding-left: 5px;
-
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    margin-left: 80%;
 }
 
 
@@ -148,9 +165,8 @@ section .home .homeright .button p {
     color: grey;
     text-shadow: 1px 1px 3px #bebebe,
         -1px -1px 3px #ffffff;
-    font-size: 23px;
+    font-size: 20px;
     text-align: center;
-    font-weight: bolder;
 }
 
 section .home .homeright .button:hover {
@@ -170,202 +186,11 @@ section .home .homeright .button:hover p {
     color: #775EA6;
 }
 
-footer {
-    width: 100hh;
-    display: flex;
-    flex-direction: column;
-}
-
-footer .psb {
-    padding-top: 20px;
-
-    width: 100%;
-    background-color: #E0E2E4;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-footer .psb p {
-    font-size: 27px;
-    font-weight: bolder;
-    font-family: "Dancing Script", cursive;
-    color: grey;
-    text-shadow: 10px 10px 20px white,
-        -10px -10px 20px white;
-}
-
-footer .company {
-    height: 100px;
-    width: 100%;
-    background-color: #E0E2E4;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-footer .company div {
-    height: fit-content;
-    width: fit-content;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-top: 30px;
-    padding-bottom: 5px;
-}
-
-footer .company div img {
-
-    height: 35px;
-
-    color: grey;
-    text-shadow: 1px 1px 3px #bebebe,
-        -1px -1px 3px #ffffff;
-}
 
 
-footer .foot {
-    height: fit-content;
-    width: 100hh;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: -5%;
-    background-color: #D9D9D9;
 
 
-}
 
-footer .foot .card {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: fit-content;
-    width: 56px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-
-
-}
-
-footer .foot .card .logo {
-    flex: 1;
-    height: 50px;
-    width: 20px;
-    text-align: right;
-    padding-right: 15px;
-    font-size: 40px;
-    color: #ED4D72
-}
-
-footer .foot .card .info {
-    flex: 2;
-    height: 60px;
-    width: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-footer .foot .card .info .title {
-    flex: 1;
-    height: 30px;
-    font-size: 25px;
-    color: #775EA6;
-
-}
-
-footer .foot .card .info .title p {
-
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-
-}
-
-footer .foot .card .info .subinfo {
-    flex: 1;
-    height: 30px;
-    font-size: 15px;
-    color: #A25189;
-    font-family: "DIN", lato, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", sans-serif;
-
-
-}
-
-footer .media {
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    background-color: #E0E2E4;
-
-
-}
-
-footer .media .copyright {
-
-    padding-left: 30px;
-    margin-top: 3%;
-    justify-self: left;
-
-}
-
-footer .media .copyright p {
-    font-size: 18px;
-    color: grey;
-    font-family: "Playfair Display", serif;
-
-}
-
-footer .media .copyright p a {
-    font-size: 18px;
-    color: grey;
-    font-family: "Playfair Display", serif;
-    color: #775EA6;
-    text-decoration-line: none;
-
-}
-
-footer .media .mediaitems {
-    display: flex;
-    flex-direction: column;
-    width: 170px;
-    margin-left: 39%;
-}
-
-footer .media .mediaitems .mediamessage {
-    padding-top: 8px;
-    color: grey;
-
-}
-
-footer .media .mediaitems .mediamessage p {
-    text-shadow: 5px 5px 5px whitesmoke;
-    font-family: "Playfair Display", serif;
-    font-weight: 400;
-    font-size: 21px;
-}
-
-footer .media .mediaitems .mediaicons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 33px;
-}
-
-.facebook-bg {
-    color: #3B5998;
-}
-
-.twitter-bg {
-    color: #55ACEE;
-}
-
-.google-bg {
-    color: #DD4B39;
-}
 
 
 

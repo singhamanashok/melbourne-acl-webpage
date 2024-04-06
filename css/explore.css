@@ -48,11 +48,11 @@ header ul li a {
 }
 
 header ul li a.active {
-    background: #205aff;
+    background: #ff2067;
 }
 
 header ul li a:hover {
-    background: #205aff;
+    background: #ff2067;
 }
 
 .toggle {
