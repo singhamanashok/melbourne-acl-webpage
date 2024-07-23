@@ -112,8 +112,6 @@ section .home .homeright {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #DCDCDC;
-
-
     flex: 2;
 
 }
